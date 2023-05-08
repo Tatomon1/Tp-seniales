@@ -1,8 +1,10 @@
 extends TextureButton
 
+@onready var generarBloqueRed = preload("res://scenes/Blocks/Red/BlockRed.tscn")
 
-# Called when the node enters the scene tree for the first time.
+
 func _ready():
+	
 	pass # Replace with function body.
 
 
@@ -12,4 +14,11 @@ func _process(delta):
 
 
 func _on_button_down():
+	generate_block()
 	pass # Replace with function body.
+
+func generate_block():
+	#Generar bloque
+	var instanciaRedBlock = generarBloqueRed.instantiate()
+	add_child(instanciaRedBlock)
+	pass
