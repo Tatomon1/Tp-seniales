@@ -15,6 +15,7 @@ func _process(delta):
 
 func _on_button_down():
 	generate_block()
+	
 	pass # Replace with function body.
 
 func generate_block():

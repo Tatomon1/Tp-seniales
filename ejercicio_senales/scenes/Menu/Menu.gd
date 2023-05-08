@@ -13,3 +13,13 @@ func _ready():
 func count_new_instance():
 	instancesCount += 1
 	$CountLabel.text = INSTANCES_TEXT + str(instancesCount)
+
+
+func _on_red_generator_button_down():
+	count_new_instance()
+	pass # Replace with function body.
+
+
+func _on_violet_generator_button_down():
+	count_new_instance()
+	pass # Replace with function body.
