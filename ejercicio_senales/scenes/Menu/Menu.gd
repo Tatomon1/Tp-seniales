@@ -23,3 +23,7 @@ func _on_red_generator_button_down():
 func _on_violet_generator_button_down():
 	count_new_instance()
 	pass # Replace with function body.
+
+func delete():
+	instancesCount = 0
+	$CountLabel.text = INSTANCES_TEXT + str(instancesCount)
