@@ -12,5 +12,5 @@ func _process(delta):
 
 
 func _on_button_down():
-	
+	get_tree().call_group("blocks","delete") # Pide el nombre de un grupo y el nombre exacto de una función.
 	pass # Replace with function body.
