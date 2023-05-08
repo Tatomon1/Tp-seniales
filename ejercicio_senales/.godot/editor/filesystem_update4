@@ -4,3 +4,4 @@ res://scenes/Buttons/VioletGenerator/VioletGenerator.tscn
 res://scenes/Buttons/RedGenerator/RedGenerator.gd
 res://scenes/Buttons/VioletGenerator/VioletGenerator.gd
 res://scenes/Blocks/Red/BlockRed.tscn
+res://scenes/Buttons/Reset/Reset.tscn
